@@ -56,7 +56,7 @@ document.getElementById("update").onclick = function () {
     .database()
     .ref("student/" + rollV)
     .update({
-      //   rollNo: rollV,
+      rollNo: rollV,
       name: nameV,
       gender: genderV,
       address: addressV,
